@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4038A94426877199008DF55C /* ServerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4038A94326877199008DF55C /* ServerViewModel.swift */; };
+		4038A947268771E8008DF55C /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4038A946268771E8008DF55C /* Server.swift */; };
+		4038A94A26877DFF008DF55C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4038A94926877DFF008DF55C /* CardView.swift */; };
+		4038A94D26877F14008DF55C /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4038A94C26877F14008DF55C /* BlurView.swift */; };
+		4038A95026878247008DF55C /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4038A94F26878247008DF55C /* BottomSheet.swift */; };
 		409CD0BF2687117F00E84663 /* SwiftUI_CustomBottomSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CD0BE2687117F00E84663 /* SwiftUI_CustomBottomSheetApp.swift */; };
 		409CD0C12687117F00E84663 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CD0C02687117F00E84663 /* ContentView.swift */; };
 		409CD0C32687117F00E84663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409CD0C22687117F00E84663 /* Assets.xcassets */; };
 		409CD0C62687117F00E84663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409CD0C52687117F00E84663 /* Preview Assets.xcassets */; };
+		409CD0D2268712A800E84663 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CD0D1268712A800E84663 /* Home.swift */; };
+		409CD0D526871B4C00E84663 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CD0D426871B4C00E84663 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4038A94326877199008DF55C /* ServerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerViewModel.swift; sourceTree = "<group>"; };
+		4038A946268771E8008DF55C /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		4038A94926877DFF008DF55C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4038A94C26877F14008DF55C /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		4038A94F26878247008DF55C /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		409CD0BB2687117F00E84663 /* SwiftUI_CustomBottomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CustomBottomSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		409CD0BE2687117F00E84663 /* SwiftUI_CustomBottomSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CustomBottomSheetApp.swift; sourceTree = "<group>"; };
 		409CD0C02687117F00E84663 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		409CD0C22687117F00E84663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		409CD0C52687117F00E84663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		409CD0C72687117F00E84663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409CD0D1268712A800E84663 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		409CD0D426871B4C00E84663 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,9 @@
 		409CD0BD2687117F00E84663 /* SwiftUI_CustomBottomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				409CD0D02687128E00E84663 /* Model */,
+				409CD0CF2687128600E84663 /* ViewModel */,
+				409CD0CE2687127100E84663 /* View */,
 				409CD0BE2687117F00E84663 /* SwiftUI_CustomBottomSheetApp.swift */,
 				409CD0C02687117F00E84663 /* ContentView.swift */,
 				409CD0C22687117F00E84663 /* Assets.xcassets */,
@@ -67,6 +84,34 @@
 				409CD0C52687117F00E84663 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		409CD0CE2687127100E84663 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				409CD0D1268712A800E84663 /* Home.swift */,
+				409CD0D426871B4C00E84663 /* CustomShape.swift */,
+				4038A94926877DFF008DF55C /* CardView.swift */,
+				4038A94C26877F14008DF55C /* BlurView.swift */,
+				4038A94F26878247008DF55C /* BottomSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409CD0CF2687128600E84663 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4038A94326877199008DF55C /* ServerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		409CD0D02687128E00E84663 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4038A946268771E8008DF55C /* Server.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4038A94A26877DFF008DF55C /* CardView.swift in Sources */,
+				4038A95026878247008DF55C /* BottomSheet.swift in Sources */,
+				4038A94D26877F14008DF55C /* BlurView.swift in Sources */,
+				409CD0D526871B4C00E84663 /* CustomShape.swift in Sources */,
 				409CD0C12687117F00E84663 /* ContentView.swift in Sources */,
+				409CD0D2268712A800E84663 /* Home.swift in Sources */,
+				4038A94426877199008DF55C /* ServerViewModel.swift in Sources */,
+				4038A947268771E8008DF55C /* Server.swift in Sources */,
 				409CD0BF2687117F00E84663 /* SwiftUI_CustomBottomSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
